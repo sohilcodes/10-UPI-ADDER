@@ -1,0 +1,75 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #111;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-container {
+  background: #1a1a1a;
+  padding: 30px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 0 12px #000;
+}
+
+.heading-text {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #0ff;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.button.shine {
+  background: linear-gradient(135deg, #06f, #0ff);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button.shine:hover {
+  background: linear-gradient(135deg, #0ff, #06f);
+}
+
+.msg {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.success {
+  background: #0a0;
+}
+
+.error {
+  background: #a00;
+}
+
+.telBtn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 10px 20px;
+  background: #0088cc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
